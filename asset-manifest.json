@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Exposition-Assignment/static/css/main.be4909fb.css",
+    "main.js": "/Exposition-Assignment/static/js/main.f9ab7823.js",
+    "static/js/453.9f74a4e0.chunk.js": "/Exposition-Assignment/static/js/453.9f74a4e0.chunk.js",
+    "index.html": "/Exposition-Assignment/index.html",
+    "main.be4909fb.css.map": "/Exposition-Assignment/static/css/main.be4909fb.css.map",
+    "main.f9ab7823.js.map": "/Exposition-Assignment/static/js/main.f9ab7823.js.map",
+    "453.9f74a4e0.chunk.js.map": "/Exposition-Assignment/static/js/453.9f74a4e0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be4909fb.css",
+    "static/js/main.f9ab7823.js"
+  ]
+}
