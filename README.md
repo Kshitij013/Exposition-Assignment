@@ -26,8 +26,8 @@ To get started with Recharts, you'll need to install it in your React project. H
    ```bash
    import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 ### Key Features & Explanation
-Composable Components: Recharts is built with composable React components, which means you can easily add or remove chart elements (e.g., lines, axes, legends) to customize the chart’s behavior and appearance.
-Responsive Design: Recharts supports responsive chart rendering, ensuring that your charts adjust according to the screen size, making them perfect for both desktop and mobile views.
-Customizable: You can customize everything from chart styles, colors, and labels to animation settings and data formats.
-Interactive: Recharts allows for interactive charts that can handle tooltips, legends, and hover effects, giving users an engaging experience when exploring data.
+* Composable Components: Recharts is built with composable React components, which means you can easily add or remove chart elements (e.g., lines, axes, legends) to customize the chart’s behavior and appearance.
+* Responsive Design: Recharts supports responsive chart rendering, ensuring that your charts adjust according to the screen size, making them perfect for both desktop and mobile views.
+* Customizable: You can customize everything from chart styles, colors, and labels to animation settings and data formats.
+* Interactive: Recharts allows for interactive charts that can handle tooltips, legends, and hover effects, giving users an engaging experience when exploring data.
 
