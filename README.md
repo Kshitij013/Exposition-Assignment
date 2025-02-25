@@ -97,10 +97,18 @@ You can copy and paste this section directly into your README. This format not o
 
 ### Screenshots
 
-**Area Chart Example**
+<h3>Area Chart Example</h3>
 
-![Area Chart Example](./images/Screenshot%202025-02-25%20184837.png)
-![Radar Chart Example](./images/radargraph.png)
+<p align="center">
+  <img src="./images/Screenshot%202025-02-25%20184837.png" alt="Area Chart Example">
+</p>
+
+<h3>Radar Chart Example</h3>
+
+<p align="center">
+  <img src="./images/radargraph.png" alt="Radar Chart Example">
+</p>
+
 
 This is an example of how your Area Chart might look when rendered in the app. The area chart visually represents the comparison between two data sets (product1 and product2), and it responds interactively when you hover over the chart.
 
