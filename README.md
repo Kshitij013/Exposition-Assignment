@@ -21,3 +21,8 @@ To get started with Recharts, you'll need to install it in your React project. H
 
    ```bash
    npm install recharts
+2. **Import the necessary components into your React component file**:
+
+3. ```bash
+   import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+
