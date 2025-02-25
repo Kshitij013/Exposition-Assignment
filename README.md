@@ -7,15 +7,15 @@ This is the repository for my Exposition Assignment.
 You can view the live website here:  
 [https://Kshitij013.github.io/Exposition-Assignment]
 
-## Composable Charting with Recharts: A Guide for React Developers
+## Building interactive,composable charts using Recharts
 
 ### Introduction
 
-Recharts is a composable charting library built with React components, designed to make the process of building interactive, customizable, and highly responsive charts simple and efficient. With Recharts, developers can create beautiful and powerful visualizations for their applications, enabling users to analyze data with ease. It offers a variety of chart types such as line, bar, pie, and scatter plots, all while keeping a focus on the React ecosystem for smooth integration.
+Recharts is a composable charting library built with React components, designed to make the process of building interactive, customizable, and highly responsive charts simple and efficient. With Recharts, developers can create beautiful and powerful visualizations for their applications, enabling users to analyze data with ease. It offers a variety of chart types such as line, bar, pie, and scatter plots, all while allowing easy integration with React
 
 ### Installation & Setup
 
-To get started with Recharts, you'll need to install it in your React project. Here are the installation steps:
+To get started with Recharts, you will have to install it in your React project. 
 
 1. **Install Recharts via npm**:
 
@@ -26,9 +26,9 @@ To get started with Recharts, you'll need to install it in your React project. H
    ```javascript
    import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 ### Key Features & Explanation
-* Composable Components: Recharts is built with composable React components, which means you can easily add or remove chart elements (e.g., lines, axes, legends) to customize the chart’s behavior and appearance.
-* Responsive Design: Recharts supports responsive chart rendering, ensuring that your charts adjust according to the screen size, making them perfect for both desktop and mobile views.
-* Customizable: You can customize everything from chart styles, colors, and labels to animation settings and data formats.
+* Composable Components: Recharts is built with composable React components, which means you can easily add, remove or edit chart elements (e.g., lines, axes, legends) to customize the chart’s behavior and appearance.
+* Responsive Design: Recharts supports responsive chart rendering, ensuring that your charts adjust according to the screen size, making them perfect for both desktop and mobile views, as demonstrated in the video.
+* Customizable: You can customize everything from chart styles, colors, and labels to animation settings and data formats as shown in the examples below.
 * Interactive: Recharts allows for interactive charts that can handle tooltips, legends, and hover effects, giving users an engaging experience when exploring data.
 
 ### Code Examples
@@ -91,10 +91,6 @@ export const AreaGraph = ({ data, xLabel, yLabel }) => {
 2. **Customization**: You can adjust the colors, styles, and labels easily.
 3. **Interactivity**: The `Tooltip` displays additional data on hover, and the `Legend` shows information about each area.
 
----
-
-You can copy and paste this section directly into your README. This format not only includes the code but also gives context to what the code does, which helps readers understand how to use it.
-
 ### Screenshots
 
 <h3>Area Chart Example</h3>
@@ -110,17 +106,17 @@ You can copy and paste this section directly into your README. This format not o
 </p>
 
 
-This is an example of how your Area Chart might look when rendered in the app. The area chart visually represents the comparison between two data sets (product1 and product2), and it responds interactively when you hover over the chart.
+This is an example of how your Area Chart might look when rendered in the app. The area chart visually represents the comparison between two data sets (product1 and product2), and it responds interactively when you hover over the chart. The radar chart could be used if user desires different form of data representation.
 
 ### Use Cases
 
 Recharts is perfect for a variety of applications, including:
 
-- **Business Dashboards**: Visualize business metrics like sales, revenue, and customer engagement using area charts, bar charts, and line charts.
+- **Business Dashboards**: Visualize business metrics like sales, revenue, and customer engagement using area charts, bar charts, pie charts, radar plots, scatter plots and line charts.
 - **Data Visualization**: Recharts is ideal for displaying large datasets and trends over time, making it a great choice for analytics and reporting tools.
-- **Real-Time Data**: Recharts can be used to visualize live data streams in real time, ideal for monitoring systems or data pipelines.
-- **Financial Applications**: Create financial charts to display stock prices, financial performance, and other key business indicators.
-- **Comparative Analysis**: Show comparative data in stacked charts or side-by-side charts to help users quickly assess differences in data points.
+- **Real-Time Data**: Recharts can be used to visualize live data streams in real time, ideal for monitoring systems.
+- **Financial Applications**: Create financial charts to display stock prices, financial performance, and other business indicators.
+- **Academic Analysis**: Recharts can be used to compare the academic performance of students without having to sieve through the data on excel sheets.
 
 ### Conclusion
 
@@ -131,8 +127,7 @@ Recharts is an easy-to-use and versatile charting library built specifically for
 - [Recharts Documentation](https://recharts.org/en-US/)
 - [React Documentation](https://reactjs.org/docs/getting-started.html)
 - [Recharts GitHub Repository](https://github.com/recharts/recharts)
-- [Chart.js](https://www.chartjs.org/) (Alternative charting library)
-- [D3.js](https://d3js.org/) (Another popular data visualization library)
+- [D3.js](https://d3js.org/) (Alternative resource)
 
 
 
