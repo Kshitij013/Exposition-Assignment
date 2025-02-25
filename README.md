@@ -1,9 +1,5 @@
 # Exposition-Assignment
 
-This is the repository for my Exposition Assignment.
-
-## Live Website
-
 You can view the live website here:  
 [https://Kshitij013.github.io/Exposition-Assignment]
 
@@ -88,7 +84,7 @@ export const AreaGraph = ({ data, xLabel, yLabel }) => {
 ### Key Points:
 
 1. **Component**: The `AreaGraph` component is reusable, and you can pass `data`, `xLabel`, and `yLabel` as props to customize the chart.
-2. **Customization**: You can adjust the colors, styles, and labels easily.
+2. **Customization**: You can adjust the colors, styles, and labels easily using the `stroke`, `fill`, `type` and more.
 3. **Interactivity**: The `Tooltip` displays additional data on hover, and the `Legend` shows information about each area.
 
 ### Screenshots
@@ -106,7 +102,7 @@ export const AreaGraph = ({ data, xLabel, yLabel }) => {
 </p>
 
 
-This is an example of how your Area Chart might look when rendered in the app. The area chart visually represents the comparison between two data sets (product1 and product2), and it responds interactively when you hover over the chart. The radar chart could be used if user desires different form of data representation.
+This is an example of how your Area Chart might look when rendered in the app. The area chart visually represents the comparison between two data sets (product1 and product2), and it responds interactively when you hover over the chart. The radar chart could be used if user desires different form of data representation, such as for comparing student marks.
 
 ### Use Cases
 
